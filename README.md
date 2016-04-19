@@ -21,4 +21,4 @@ liquidsoap test1.liq
 ```
 
 then point your browser to
-http://172.16.0.25:8000/test1.ogg
+http://172.16.0.25:8000/test1.m3u
