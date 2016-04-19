@@ -1,0 +1,24 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  config.vm.define :dev do |vm_config|
+    vm_config.vm.box = 'ubuntu/trusty64'
+    vm_config.vm.hostname = "dev.rf-streamer"
+    vm_config.vm.network :private_network, ip: "172.16.0.25"
+    vm_config.vm.synced_folder "../puppet", "/etc/puppet"
+    vm_config.vm.synced_folder "../../..", "/home/vagrant/src"
+
+    vm_config.vm.provider "virtualbox" do |v|
+      v.name = "rf-streamer-dev"
+      v.customize ["modifyvm", :id, "--memory", "512"]
+    end
+
+    # vm_config.vm.provision :shell, :path => "../scripts/1-preinstall-puppet-ruby.sh"
+
+    vm_config.vm.provision :puppet do |puppet|
+      puppet.manifests_path = "../puppet/manifests"
+      puppet.manifest_file = "site.pp"
+    end
+  end
+end

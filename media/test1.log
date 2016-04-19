@@ -1,0 +1,46 @@
+2016/02/26 15:00:52 >>> LOG START
+2016/02/26 15:00:52 [protocols.external:3] Found "/usr/bin/wget".
+2016/02/26 15:00:52 [main:3] Liquidsoap 1.1.1
+2016/02/26 15:00:52 [main:3] Using: graphics=[distributed with Ocaml] pcre=7.0.2 dtools=0.3.1 duppy=0.5.1 duppy.syntax=0.5.1 cry=0.2.2 mm=0.2.1 xmlplaylist=0.1.3 lastfm=0.3.0 ogg=0.4.5 vorbis=0.6.1 opus=0.1.0 speex=0.2.0 mad=0.4.4 flac=0.1.1 flac.ogg=0.1.1 dynlink=[distributed with Ocaml] lame=0.3.2 shine=0.1.1 gstreamer=0.2.0 frei0r=0.1.0 voaacenc=0.1.0 theora=0.3.0 schroedinger=0.1.0 gavl=0.1.5 bjack=0.1.4 alsa=0.2.1 ao=0.2.0 samplerate=0.1.2 taglib=0.3.1 magic=0.7.3 camomile=0.8.4 inotify=1.0 faad=0.3.2 soundtouch=0.1.7 portaudio=0.2.0 pulseaudio=0.1.2 ladspa=0.1.4 dssi=0.1.1 sdl=0.9.1 camlimages=4.0.0 lo=0.1.0 yojson=1.1.7 gd=1.0a5
+2016/02/26 15:00:52 [dynamic.loader:3] Could not find dynamic module for fdkaac encoder.
+2016/02/26 15:00:52 [dynamic.loader:3] Could not find dynamic module for aacplus encoder.
+2016/02/26 15:00:52 [dynamic.loader:2] Loaded plugin file /usr/lib/liquidsoap/1.1.1/plugins/pulseaudio.cmxs.
+2016/02/26 15:00:52 [dynamic.loader:2] Loaded plugin file /usr/lib/liquidsoap/1.1.1/plugins/mad.cmxs.
+2016/02/26 15:00:52 [dynamic.loader:2] Loaded plugin file /usr/lib/liquidsoap/1.1.1/plugins/faad.cmxs.
+2016/02/26 15:00:52 [dynamic.loader:2] Loaded plugin file /usr/lib/liquidsoap/1.1.1/plugins/voaacenc.cmxs.
+2016/02/26 15:00:52 [dynamic.loader:2] Loaded plugin file /usr/lib/liquidsoap/1.1.1/plugins/flac.cmxs.
+2016/02/26 15:00:52 [dynamic.loader:2] Loaded plugin file /usr/lib/liquidsoap/1.1.1/plugins/taglib.cmxs.
+2016/02/26 15:00:52 [dynamic.loader:2] Loaded plugin file /usr/lib/liquidsoap/1.1.1/plugins/cry.cmxs.
+2016/02/26 15:00:52 [dynamic.loader:2] Loaded plugin file /usr/lib/liquidsoap/1.1.1/plugins/lame.cmxs.
+2016/02/26 15:00:52 [dynamic.loader:2] Loaded plugin file /usr/lib/liquidsoap/1.1.1/plugins/ogg.cmxs.
+2016/02/26 15:00:52 [dynamic.loader:2] Loaded plugin file /usr/lib/liquidsoap/1.1.1/plugins/flac_ogg.cmxs.
+2016/02/26 15:00:52 [dynamic.loader:2] Loaded plugin file /usr/lib/liquidsoap/1.1.1/plugins/vorbis.cmxs.
+2016/02/26 15:00:52 [frame:3] Using 44100Hz audio, 25Hz video, 44100Hz master.
+2016/02/26 15:00:52 [frame:3] Frame size must be a multiple of 1764 ticks = 1764 audio samples = 1 video samples.
+2016/02/26 15:00:52 [frame:3] Targetting 'frame.duration': 0.04s = 1764 audio samples = 1764 ticks.
+2016/02/26 15:00:52 [frame:3] Frames last 0.04s = 1764 audio samples = 1 video samples = 1764 ticks.
+2016/02/26 15:00:52 [threads:3] Created thread "generic queue #1".
+2016/02/26 15:00:52 [threads:3] Created thread "generic queue #2".
+2016/02/26 15:00:52 [playlist1(dot)xml:3] Loading playlist...
+2016/02/26 15:00:53 [playlist1(dot)xml:3] Unknown mime type, trying autodetection.
+2016/02/26 15:00:53 [playlist.basic:3] Wrong mime type application/xml for playlist!
+2016/02/26 15:00:53 [playlist.basic:3] Wrong mime type application/xml for playlist!
+2016/02/26 15:00:53 [playlist.basic:3] Wrong mime type application/xml for playlist!
+2016/02/26 15:00:53 [playlist.basic:3] Wrong mime type application/xml for playlist!
+2016/02/26 15:00:53 [playlist.basic:3] Wrong mime type application/xml for playlist!
+2016/02/26 15:00:53 [playlist parser:3] No format found
+2016/02/26 15:00:53 [playlist1(dot)xml:3] Could not parse playlist: Not_found
+2016/02/26 15:00:53 [playlist1(dot)xml:3] Got an empty list: keeping the old one.
+2016/02/26 15:00:53 [test1(dot)ogg:3] Connecting mount test1.ogg for source@localhost...
+2016/02/26 15:00:53 [test1(dot)ogg:3] Connection setup was successful.
+2016/02/26 15:00:53 [threads:3] Created thread "wallclock_main" (1 total).
+2016/02/26 15:00:53 [clock.wallclock_main:3] Streaming loop starts, synchronized with wallclock.
+2016/02/26 15:00:53 [mksafe:3] Switch to safe_blank.
+2016/02/26 15:03:24 [main:3] Shutdown started!
+2016/02/26 15:03:24 [main:3] Waiting for threads to terminate...
+2016/02/26 15:03:24 [test1(dot)ogg:3] Closing connection...
+2016/02/26 15:03:24 [clock.wallclock_main:3] Streaming loop stopped.
+2016/02/26 15:03:24 [threads:3] Thread "wallclock_main" terminated (0 remaining).
+2016/02/26 15:03:24 [main:3] Cleaning downloaded files...
+2016/02/26 15:03:24 [main:3] Freeing memory...
+2016/02/26 15:03:24 >>> LOG END
