@@ -33,4 +33,5 @@ EOF
   opam install pcre --yes
   opam install camomile --yes
   opam install xmlm --yes
+  opam install base-bytes --yes
 fi

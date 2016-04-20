@@ -40,6 +40,10 @@ class icecast (
   }
   ->
   service { 'icecast2':
-    enable => true
+    enable => true,
+    subscribe => [
+      File["/etc/icecast2/icecast.xml"],
+      File["/etc/default/icecast2"]
+    ]
   }
 }

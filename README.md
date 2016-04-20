@@ -17,8 +17,8 @@ http://admin:Q0A46L1cv81yi@172.16.0.25:8000/admin/stats.xml
 
 ```bash
 cd ~/src/rf-streamer/media
-liquidsoap test1.liq
+liquidsoap easy-classic.liq
 ```
 
 then point your browser to
-http://172.16.0.25:8000/test1.m3u
+http://172.16.0.25:8000/easy-classic.m3u

@@ -2,3 +2,8 @@
 .vagrant
 *.mp3
 *.wav
+*.reapeaks
+*.cue
+*.log
+*.RPP
+*.RPP-bak

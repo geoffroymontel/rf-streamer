@@ -1,14 +1,15 @@
 class liquidsoap {
   $liquidsoap_packages = [
   "wget","unzip","aspcud","m4","git","pkg-config",
-  "libpcre3-dev",
+  "libpcre3-dev","libao-dev",
   "ncurses-dev","libogg-dev",
   "libtool","g++","libxml-dom-perl","festival",
-  "libmp3lame-dev","libflac++-dev",
+  "libflac++-dev",
   "libmad0-dev", "libshout3-dev", "libvorbis-dev", "libid3tag0-dev",
   "libasound2-dev", "autoconf", "automake",
-  "swh-plugins",
-  "liblo-dev",
+  "swh-plugins","portaudio19-dev","libgstreamer1.0-0","libgstreamer1.0-dev",
+  "libgstreamer-plugins-base1.0-0", "libgstreamer-plugins-base1.0-dev",
+  "liblo-dev","libshine-dev",
   "libmad0",
   "libspeex1", "libspeex-dev",
   "libtheora0", "libtheora-dev",
@@ -17,13 +18,13 @@ class liquidsoap {
   "libsoundtouch0", "libsoundtouch-dev",
   "libsamplerate0", "libsamplerate0-dev",
   "libflac++6", "libflac8",
-  "libmp3lame0",
   "dssi-dev",
   "libpulse0", "libpulse-dev",
   "libtag1c2a", "libtag1-dev",
   "libvorbis0a",
   "libopus0", "libopus-dev",
-  "libfaad2", "libfaad-dev"
+  "libfaad2", "libfaad-dev",
+  "libmp3lame-dev","libmp3lame0"
   ]
 
   class { 'apt':
@@ -49,6 +50,13 @@ class liquidsoap {
     group => vagrant
   }
   ->
+  file { "/tmp/PACKAGES":
+    ensure => present,
+    source  => "puppet:///modules/liquidsoap/PACKAGES",
+    owner => vagrant,
+    group => vagrant
+  }
+  ->
   file { "/tmp/build-liquidsoap.sh":
     mode    => 555,
     ensure  => present,
@@ -57,7 +65,7 @@ class liquidsoap {
   ->
   exec { "/tmp/build-liquidsoap.sh":
     command => "/tmp/build-liquidsoap.sh",
-    unless => "test -f /home/vagrant/.opam/system/bin/liquidsoap",
+    unless => "test -f /usr/local/bin/liquidsoap",
     timeout => 0,
     user => vagrant,
     group => vagrant

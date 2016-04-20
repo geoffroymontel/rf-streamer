@@ -424,3 +424,125 @@
 2016/04/19 14:11:23 [main:3] Cleaning downloaded files...
 2016/04/19 14:11:23 [main:3] Freeing memory...
 2016/04/19 14:11:23 >>> LOG END
+2016/04/20 12:36:26 >>> LOG START
+2016/04/20 12:36:26 [protocols.external:3] Found "/home/vagrant/.opam/system/lib/liquidsoap/lib/liquidsoap/1.2.0/liquidget".
+2016/04/20 12:36:26 [main:3] Liquidsoap 1.2.0
+2016/04/20 12:36:26 [main:3] Using: bytes=[distributed with OCaml 4.02 or above] pcre=7.2.3 dtools=0.3.2 duppy=0.5.2 duppy.syntax=0.5.2 cry=0.3.0 mm=0.3.0 xmlplaylist=0.1.4 ogg=0.5.0 vorbis=0.6.2 opus=0.1.1 mad=0.4.5 flac=0.1.2 flac.ogg=0.1.2 dynlink=[distributed with Ocaml] lame=0.3.3 voaacenc=0.1.1 fdkaac=0.2.1 alsa=0.2.2 samplerate=0.1.3 taglib=0.3.2 camomile=0.8.5 faad=0.3.3 soundtouch=0.1.8 pulseaudio=0.1.3 ladspa=0.1.5
+2016/04/20 12:36:26 [dynamic.loader:3] Could not find dynamic module for aacplus encoder.
+2016/04/20 12:36:26 [frame:3] Using 44100Hz audio, 25Hz video, 44100Hz master.
+2016/04/20 12:36:26 [frame:3] Frame size must be a multiple of 1764 ticks = 1764 audio samples = 1 video samples.
+2016/04/20 12:36:26 [frame:3] Targetting 'frame.duration': 0.04s = 1764 audio samples = 1764 ticks.
+2016/04/20 12:36:26 [frame:3] Frames last 0.04s = 1764 audio samples = 1 video samples = 1764 ticks.
+2016/04/20 12:36:26 [threads:3] Created thread "generic queue #1".
+2016/04/20 12:36:26 [threads:3] Created thread "generic queue #2".
+2016/04/20 12:36:26 [easy_classic(dot)cue:3] Loading playlist...
+2016/04/20 12:36:26 [easy_classic(dot)cue:3] Playlist treated as format application/x-cue
+2016/04/20 12:36:26 [easy_classic(dot)cue:3] Successfully loaded a playlist of 3 tracks.
+2016/04/20 12:36:26 [test1:3] Connecting mount test1 for source@localhost...
+2016/04/20 12:36:26 [decoder:3] Method "WAV" accepted "easy classic.wav".
+2016/04/20 12:36:26 [test1:3] Connection setup was successful.
+2016/04/20 12:36:26 [threads:3] Created thread "wallclock_main" (1 total).
+2016/04/20 12:36:26 [clock.wallclock_main:3] Streaming loop starts, synchronized with wallclock.
+2016/04/20 12:36:26 [mksafe:3] Switch to safe_blank.
+2016/04/20 12:36:26 [easy_classic(dot)cue:3] Prepared "easy classic.wav" (RID 1).
+2016/04/20 12:36:26 [mksafe:3] Switch to easy_classic(dot)cue with transition.
+2016/04/20 12:37:51 [decoder:3] Method "WAV" accepted "easy classic.wav".
+2016/04/20 12:38:01 [easy_classic(dot)cue:3] Finished with "easy classic.wav".
+2016/04/20 12:38:01 [easy_classic(dot)cue:3] Prepared "easy classic.wav" (RID 2).
+2016/04/20 12:39:25 [decoder:3] Method "WAV" accepted "easy classic.wav".
+2016/04/20 12:39:35 [easy_classic(dot)cue:3] Finished with "easy classic.wav".
+2016/04/20 12:39:35 [easy_classic(dot)cue:3] Prepared "easy classic.wav" (RID 3).
+2016/04/20 12:41:00 [decoder:3] Method "WAV" accepted "easy classic.wav".
+2016/04/20 12:41:10 [easy_classic(dot)cue:3] Finished with "easy classic.wav".
+2016/04/20 12:41:10 [easy_classic(dot)cue:3] Prepared "easy classic.wav" (RID 4).
+2016/04/20 12:42:35 [decoder:3] Method "WAV" accepted "easy classic.wav".
+2016/04/20 12:42:45 [easy_classic(dot)cue:3] Finished with "easy classic.wav".
+2016/04/20 12:42:45 [easy_classic(dot)cue:3] Prepared "easy classic.wav" (RID 5).
+2016/04/20 12:44:09 [decoder:3] Method "WAV" accepted "easy classic.wav".
+2016/04/20 12:44:19 [easy_classic(dot)cue:3] Finished with "easy classic.wav".
+2016/04/20 12:44:19 [easy_classic(dot)cue:3] Prepared "easy classic.wav" (RID 6).
+2016/04/20 12:45:44 [decoder:3] Method "WAV" accepted "easy classic.wav".
+2016/04/20 12:45:54 [easy_classic(dot)cue:3] Finished with "easy classic.wav".
+2016/04/20 12:45:54 [easy_classic(dot)cue:3] Prepared "easy classic.wav" (RID 7).
+2016/04/20 12:47:19 [decoder:3] Method "WAV" accepted "easy classic.wav".
+2016/04/20 12:47:29 [easy_classic(dot)cue:3] Finished with "easy classic.wav".
+2016/04/20 12:47:29 [easy_classic(dot)cue:3] Prepared "easy classic.wav" (RID 0).
+2016/04/20 12:48:53 [decoder:3] Method "WAV" accepted "easy classic.wav".
+2016/04/20 12:49:03 [easy_classic(dot)cue:3] Finished with "easy classic.wav".
+2016/04/20 12:49:03 [easy_classic(dot)cue:3] Prepared "easy classic.wav" (RID 1).
+2016/04/20 12:50:28 [decoder:3] Method "WAV" accepted "easy classic.wav".
+2016/04/20 12:50:38 [easy_classic(dot)cue:3] Finished with "easy classic.wav".
+2016/04/20 12:50:38 [easy_classic(dot)cue:3] Prepared "easy classic.wav" (RID 2).
+2016/04/20 12:52:03 [decoder:3] Method "WAV" accepted "easy classic.wav".
+2016/04/20 12:52:13 [easy_classic(dot)cue:3] Finished with "easy classic.wav".
+2016/04/20 12:52:13 [easy_classic(dot)cue:3] Prepared "easy classic.wav" (RID 3).
+2016/04/20 12:53:37 [decoder:3] Method "WAV" accepted "easy classic.wav".
+2016/04/20 12:53:47 [easy_classic(dot)cue:3] Finished with "easy classic.wav".
+2016/04/20 12:53:47 [easy_classic(dot)cue:3] Prepared "easy classic.wav" (RID 4).
+2016/04/20 12:55:12 [decoder:3] Method "WAV" accepted "easy classic.wav".
+2016/04/20 12:55:22 [easy_classic(dot)cue:3] Finished with "easy classic.wav".
+2016/04/20 12:55:22 [easy_classic(dot)cue:3] Prepared "easy classic.wav" (RID 5).
+2016/04/20 14:24:08 [clock.wallclock_main:2] Too much latency! Resetting active sources...
+2016/04/20 14:24:08 [test1:3] Closing connection...
+2016/04/20 14:24:08 [test1:3] Connecting mount test1 for source@localhost...
+2016/04/20 14:24:08 [test1:3] Connection setup was successful.
+2016/04/20 14:24:10 [decoder:3] Method "WAV" accepted "easy classic.wav".
+2016/04/20 14:24:20 [easy_classic(dot)cue:3] Finished with "easy classic.wav".
+2016/04/20 14:24:20 [easy_classic(dot)cue:3] Prepared "easy classic.wav" (RID 0).
+2016/04/20 14:25:44 [decoder:3] Method "WAV" accepted "easy classic.wav".
+2016/04/20 14:25:54 [easy_classic(dot)cue:3] Finished with "easy classic.wav".
+2016/04/20 14:25:54 [easy_classic(dot)cue:3] Prepared "easy classic.wav" (RID 1).
+2016/04/20 14:27:19 [decoder:3] Method "WAV" accepted "easy classic.wav".
+2016/04/20 14:27:29 [easy_classic(dot)cue:3] Finished with "easy classic.wav".
+2016/04/20 14:27:29 [easy_classic(dot)cue:3] Prepared "easy classic.wav" (RID 2).
+2016/04/20 14:28:54 [decoder:3] Method "WAV" accepted "easy classic.wav".
+2016/04/20 14:29:04 [easy_classic(dot)cue:3] Finished with "easy classic.wav".
+2016/04/20 14:29:04 [easy_classic(dot)cue:3] Prepared "easy classic.wav" (RID 3).
+2016/04/20 14:30:28 [decoder:3] Method "WAV" accepted "easy classic.wav".
+2016/04/20 14:30:38 [easy_classic(dot)cue:3] Finished with "easy classic.wav".
+2016/04/20 14:30:38 [easy_classic(dot)cue:3] Prepared "easy classic.wav" (RID 4).
+2016/04/20 14:32:03 [decoder:3] Method "WAV" accepted "easy classic.wav".
+2016/04/20 14:32:13 [easy_classic(dot)cue:3] Finished with "easy classic.wav".
+2016/04/20 14:32:13 [easy_classic(dot)cue:3] Prepared "easy classic.wav" (RID 6).
+2016/04/20 14:33:37 [decoder:3] Method "WAV" accepted "easy classic.wav".
+2016/04/20 14:33:47 [easy_classic(dot)cue:3] Finished with "easy classic.wav".
+2016/04/20 14:33:47 [easy_classic(dot)cue:3] Prepared "easy classic.wav" (RID 7).
+2016/04/20 14:35:12 [decoder:3] Method "WAV" accepted "easy classic.wav".
+2016/04/20 14:35:22 [easy_classic(dot)cue:3] Finished with "easy classic.wav".
+2016/04/20 14:35:22 [easy_classic(dot)cue:3] Prepared "easy classic.wav" (RID 5).
+2016/04/20 14:36:47 [decoder:3] Method "WAV" accepted "easy classic.wav".
+2016/04/20 14:36:57 [easy_classic(dot)cue:3] Finished with "easy classic.wav".
+2016/04/20 14:36:57 [easy_classic(dot)cue:3] Prepared "easy classic.wav" (RID 0).
+2016/04/20 14:38:21 [decoder:3] Method "WAV" accepted "easy classic.wav".
+2016/04/20 14:38:31 [easy_classic(dot)cue:3] Finished with "easy classic.wav".
+2016/04/20 14:38:31 [easy_classic(dot)cue:3] Prepared "easy classic.wav" (RID 1).
+2016/04/20 14:39:56 [decoder:3] Method "WAV" accepted "easy classic.wav".
+2016/04/20 14:40:06 [easy_classic(dot)cue:3] Finished with "easy classic.wav".
+2016/04/20 14:40:06 [easy_classic(dot)cue:3] Prepared "easy classic.wav" (RID 2).
+2016/04/20 14:41:31 [decoder:3] Method "WAV" accepted "easy classic.wav".
+2016/04/20 14:41:41 [easy_classic(dot)cue:3] Finished with "easy classic.wav".
+2016/04/20 14:41:41 [easy_classic(dot)cue:3] Prepared "easy classic.wav" (RID 3).
+2016/04/20 14:43:05 [decoder:3] Method "WAV" accepted "easy classic.wav".
+2016/04/20 14:43:15 [easy_classic(dot)cue:3] Finished with "easy classic.wav".
+2016/04/20 14:43:15 [easy_classic(dot)cue:3] Prepared "easy classic.wav" (RID 4).
+2016/04/20 14:44:40 [decoder:3] Method "WAV" accepted "easy classic.wav".
+2016/04/20 14:44:50 [easy_classic(dot)cue:3] Finished with "easy classic.wav".
+2016/04/20 14:44:50 [easy_classic(dot)cue:3] Prepared "easy classic.wav" (RID 6).
+2016/04/20 14:46:15 [decoder:3] Method "WAV" accepted "easy classic.wav".
+2016/04/20 14:46:25 [easy_classic(dot)cue:3] Finished with "easy classic.wav".
+2016/04/20 14:46:25 [easy_classic(dot)cue:3] Prepared "easy classic.wav" (RID 7).
+2016/04/20 14:47:49 [decoder:3] Method "WAV" accepted "easy classic.wav".
+2016/04/20 14:47:59 [easy_classic(dot)cue:3] Finished with "easy classic.wav".
+2016/04/20 14:47:59 [easy_classic(dot)cue:3] Prepared "easy classic.wav" (RID 5).
+2016/04/20 14:49:16 [main:3] Shutdown started!
+2016/04/20 14:49:16 [main:3] Waiting for threads to terminate...
+2016/04/20 14:49:16 [test1:3] Closing connection...
+2016/04/20 14:49:16 [easy_classic(dot)cue:3] Finished with "easy classic.wav".
+2016/04/20 14:49:16 [clock.wallclock_main:3] Streaming loop stopped.
+2016/04/20 14:49:16 [threads:3] Thread "wallclock_main" terminated (0 remaining).
+2016/04/20 14:49:16 [main:3] Threads terminated.
+2016/04/20 14:49:16 [threads:3] Shutting down scheduler...
+2016/04/20 14:49:16 [threads:3] Scheduler shut down.
+2016/04/20 14:49:16 [main:3] Cleaning downloaded files...
+2016/04/20 14:49:16 [main:3] Freeing memory...
+2016/04/20 14:49:16 >>> LOG END
