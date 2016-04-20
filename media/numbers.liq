@@ -8,11 +8,11 @@ def apply_metadata(m) =
 end
 
 radio = mksafe(
-  playlist(
+  cue_cut(playlist(
     mode = "normal",
     mime_type = "application/x-cue",
     "numbers.cue"
-  )
+  ))
 )
 
 radio = on_metadata(apply_metadata,radio)
